@@ -1,0 +1,80 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+
+
+
+body {
+    background:  url('../images/topoftheworld.png') no-repeat center left fixed ;
+
+   
+
+}
+.greet{
+	font-size:2em;
+	color:#003366;
+	font-family:'Raleway',sans-serif;
+	display:inherit;
+/*	margin:5px;
+
+
+	padding: 5px;*/
+}
+.aboutMe{
+	font-size: 1.5em;
+	color:#003366;
+	font-family:'Raleway',sans-serif;
+	/*display:inherit;*/
+	/*padding: 0px;*/
+    
+}
+.btn{
+	margin:10px;
+	opacity: .6;
+	border-radius: 20px;
+}
+.btn-primary {
+    background: #C0ff33;
+    color: #003366;
+}
+ 
+.btn-primary:hover {
+    background: #33a6cc;
+    width:250px;
+    transition: all 0.3s;
+}
+a:hover{
+	text-decoration: none;
+}
+.cushion{
+	margin: 10px;
+	height :100px;
+}
+.socialMedia{
+    background: #ffff00;
+    color: #0040ff;
+    font-size: 1.2em;
+    display: none;
+}
+.socialMedia:hover{
+	    background: #33a6cc;
+        height:50px;
+        width: 180px;
+        transition: all 0.3s;
+        opacity: 0.8;
+}
+.myWork{
+    background: #ffff00;
+    color: #0040ff;
+    font-size: 1.2em;
+    display: none;
+}
+.myWork:hover{
+	    background: #33a6cc;
+        height:50px;
+        width: 180px;
+        transition: all 0.3s;
+        opacity: 0.8;
+}
