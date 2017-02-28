@@ -21,11 +21,15 @@ console.log('out of here')
 			console.log('out of here')
 
 		}
+
 	);
 
 	
 
-	
+			$("#socialMedia").hover(function(){
+			console.log("animate");
+			$("#socialMedia").animate({rotate:90}, 0)
+		});
 
 
 
